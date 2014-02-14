@@ -21,6 +21,11 @@
 		D18E2072189835D80016B4AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18E2054189835D80016B4AE /* UIKit.framework */; };
 		D18E207A189835D80016B4AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D18E2078189835D80016B4AE /* InfoPlist.strings */; };
 		D18E207C189835D80016B4AE /* Tacp_QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E207B189835D80016B4AE /* Tacp_QuizTests.m */; };
+		D18E2086189836250016B4AE /* Tacp Image 55%.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D18E2085189836250016B4AE /* Tacp Image 55%.jpg */; };
+		D18E20881898368F0016B4AE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D18E20871898368F0016B4AE /* Icon.png */; };
+		D18E208A1898369C0016B4AE /* TACP crest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D18E20891898369C0016B4AE /* TACP crest.jpg */; };
+		D18E208D189839930016B4AE /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E208C189839930016B4AE /* Categories.m */; };
+		D18E20901898438D0016B4AE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = D18E208F1898438D0016B4AE /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,13 @@
 		D18E2077189835D80016B4AE /* Tacp QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tacp QuizTests-Info.plist"; sourceTree = "<group>"; };
 		D18E2079189835D80016B4AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D18E207B189835D80016B4AE /* Tacp_QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tacp_QuizTests.m; sourceTree = "<group>"; };
+		D18E2085189836250016B4AE /* Tacp Image 55%.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tacp Image 55%.jpg"; sourceTree = "<group>"; };
+		D18E20871898368F0016B4AE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D18E20891898369C0016B4AE /* TACP crest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "TACP crest.jpg"; sourceTree = "<group>"; };
+		D18E208B189839930016B4AE /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Categories.h; path = ../Categories.h; sourceTree = "<group>"; };
+		D18E208C189839930016B4AE /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Categories.m; path = ../Categories.m; sourceTree = "<group>"; };
+		D18E208E1898438D0016B4AE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		D18E208F1898438D0016B4AE /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,10 @@
 				D18E2062189835D80016B4AE /* Main.storyboard */,
 				D18E2065189835D80016B4AE /* ViewController.h */,
 				D18E2066189835D80016B4AE /* ViewController.m */,
+				D18E208B189839930016B4AE /* Categories.h */,
+				D18E208C189839930016B4AE /* Categories.m */,
+				D18E208E1898438D0016B4AE /* Game.h */,
+				D18E208F1898438D0016B4AE /* Game.m */,
 				D18E2068189835D80016B4AE /* Images.xcassets */,
 				D18E2057189835D80016B4AE /* Supporting Files */,
 			);
@@ -127,6 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				D18E2058189835D80016B4AE /* Tacp Quiz-Info.plist */,
+				D18E20871898368F0016B4AE /* Icon.png */,
+				D18E20891898369C0016B4AE /* TACP crest.jpg */,
+				D18E2085189836250016B4AE /* Tacp Image 55%.jpg */,
 				D18E2059189835D80016B4AE /* InfoPlist.strings */,
 				D18E205C189835D80016B4AE /* main.m */,
 				D18E205E189835D80016B4AE /* Tacp Quiz-Prefix.pch */,
@@ -230,7 +249,10 @@
 			files = (
 				D18E2069189835D80016B4AE /* Images.xcassets in Resources */,
 				D18E205B189835D80016B4AE /* InfoPlist.strings in Resources */,
+				D18E208A1898369C0016B4AE /* TACP crest.jpg in Resources */,
+				D18E20881898368F0016B4AE /* Icon.png in Resources */,
 				D18E2064189835D80016B4AE /* Main.storyboard in Resources */,
+				D18E2086189836250016B4AE /* Tacp Image 55%.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18E20901898438D0016B4AE /* Game.m in Sources */,
 				D18E2067189835D80016B4AE /* ViewController.m in Sources */,
+				D18E208D189839930016B4AE /* Categories.m in Sources */,
 				D18E2061189835D80016B4AE /* AppDelegate.m in Sources */,
 				D18E205D189835D80016B4AE /* main.m in Sources */,
 			);
@@ -460,6 +484,7 @@
 				D18E2081189835D80016B4AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D18E2082189835D80016B4AE /* Build configuration list for PBXNativeTarget "Tacp QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +493,7 @@
 				D18E2084189835D80016B4AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
